@@ -209,7 +209,3 @@ const handleImageClick = async (imagePath: string) => {
   setSearchResults(matchingImages);
 };
 ```
-
-And here's the final result:
-
-![](demo.gif)
