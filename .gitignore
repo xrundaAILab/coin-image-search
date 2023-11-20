@@ -4,4 +4,6 @@ dist
 .turbo
 *.zip
 data
+data2
+coin
 .DS_Store

@@ -33,6 +33,7 @@ if (isProd) {
 
   app.use(router);
 
+  app.use('/coin', express.static(join(__dirname, '../coin')));
   app.use('/data', express.static(join(__dirname, '../data')));
 
 

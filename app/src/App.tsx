@@ -82,7 +82,7 @@ function App() {
             }`}
             onClick={() => handleImageClick(image.src)}
           >
-            <img src={image.src} alt={image.alt} />
+            <img className="w-40 object-contain" src={image.src} alt={image.alt} />
           </div>
         ))}
       </div>
